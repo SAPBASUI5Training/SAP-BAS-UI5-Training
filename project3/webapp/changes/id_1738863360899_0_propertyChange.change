@@ -1,0 +1,41 @@
+{
+    "fileName": "id_1738863360899_0_propertyChange",
+    "fileType": "change",
+    "changeType": "propertyChange",
+    "moduleName": "",
+    "reference": "project3",
+    "packageName": "",
+    "content": {
+        "property": "visible",
+        "newValue": true
+    },
+    "selector": {
+        "id": "project3::sap.suite.ui.generic.template.ObjectPage.view.Details::Categories--template::UpAndDownNavigation",
+        "idIsLocal": false,
+        "type": "sap.m.Button"
+    },
+    "layer": "CUSTOMER_BASE",
+    "texts": {},
+    "namespace": "apps/project3/changes/",
+    "projectId": "",
+    "creation": 1738863360899,
+    "originalLanguage": "",
+    "support": {
+        "generator": "changeUtils: SAPFioriTools",
+        "service": "",
+        "user": "",
+        "sapui5Version": " ",
+        "sourceChangeFileName": "",
+        "compositeCommand": ""
+    },
+    "oDataInformation": {},
+    "dependentSelector": {},
+    "validAppVersions": {
+        "from": "0.0.1",
+        "to": "0.0.1",
+        "creation": "0.0.1"
+    },
+    "jsOnly": false,
+    "variantReference": "",
+    "appDescriptorChange": false
+}

@@ -1,0 +1,47 @@
+<mvc:View xmlns:mdc="sap.ui.mdc"
+    xmlns:form="sap.ui.layout.form"
+    controllerName="zdecnorthwind.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+>
+    <Page
+        id="page"
+        title="{i18n>title}"
+    >
+        <form:SimpleForm id="simpleForm" layout="ColumnLayout" editable="true">
+            <Label id="Category_ID" text="Category ID"/>
+             <Input id="inp1" width="10%" value="{/Category/Category_ID}"/>
+            <Label id="Category_Name" text="Category Name"/>
+            <Input id="inp2" width="10%" value=""/>
+            <Label id="employee_Id" text="employee Id"/>
+            <Input id="inp3" width="10%" value=""/>
+            <Label id="Description" text="Description"/>
+            <Input id="inp4" width="10%" value=""/>
+            <Label id="Picture" text="Picture"/>
+            <Input id="inp5" width="10%" value=""/>
+            <Label id="Customer_Type_ID" text="Customer Type ID"/>
+            <Input id="input6" width="10%" value=""/>
+            <Label id="Customer_Desc" text="Customer Desc"/>
+            <Input id="input7" width="10%" value=""/>
+            <Label id="Customer_ID" text="Customer ID"/>
+            <Input id="inp8" width="10%" value=""/>
+            <Label id="Company_Name" text="Company Name"/>
+            <Input id="inp9" width="10%" value=""/>
+            <Label id="Address" text="Address"/>
+            <Input id="inp10" width="10%" value=""/>
+            <Label id="Phone" text="Phone"/>
+            <Input id="inp11" width="10%" value=""/>
+            <Label id="Order_ID" text="Order ID"/>
+            <Input id="inp12" width="10%" value=""/>
+            <Label id="Product_ID" text="Product ID"/>
+            <Input id="inp13" width="10%" value=""/>
+            <Label id="Unit_Price" text="Unit Price"/>
+            <Input id="inp14" width="10%" value=""/>
+            <Label id="Quantity" text="Quantity"/>
+            <Input id="inp15" width="10%" value=""/>
+            <Label id="Discount" text="Discount (%)"/>
+            <Input id="inp16" width="2%" value=""/>
+            
+        </form:SimpleForm>
+    </Page>
+</mvc:View>

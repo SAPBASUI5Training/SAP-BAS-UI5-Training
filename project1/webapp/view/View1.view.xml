@@ -1,0 +1,106 @@
+<mvc:View xmlns:form="sap.ui.layout.form" controllerName="project1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+    <content>
+    
+    <Table items="{JSONData>/NWCat}" growing="true" mode="SingleSelectMaster" >
+       <columns>
+         <Column> <Label text="Employee ID"/></Column>
+         <Column> <Label text="Last Name"/></Column>
+         <Column> <Label text="FirstName"/></Column>
+         <Column> <Label text="Title"/></Column>
+         <Column> <Label text="TitleOfCourtesy"/></Column>
+         <Column> <Label text="BirthDate"/></Column>
+         <Column> <Label text="HireDate"/></Column>
+         <Column> <Label text="Address"/></Column>
+         <Column> <Label text="City"/></Column>
+         <Column> <Label text="Region"/></Column>
+         <Column> <Label text="PostalCode"/></Column>
+         <Column> <Label text="Country"/></Column>
+         <Column> <Label text="HomePhone"/></Column>
+         <Column> <Label text="Extension"/></Column>
+         <!-- <Column> <Label text="Photo"/></Column> -->
+         <!-- <Column> <Label text="Notes"/></Column> -->
+         <Column> <Label text="ReportsTo"/></Column>
+         <Column> <Label text="PhotoPath"/></Column>
+         <Column> <Label text="ORderId"/></Column>
+         <Column> <Label text="Action"/></Column>
+         
+       </columns>
+       <items>
+        <ColumnListItem >
+         <cells>
+         <Text text="{JSONData>EmployeeID}"></Text>
+         <Text text="{JSONData>LastName}"></Text>
+         <Text text="{JSONData>FirstName}"></Text>
+         <Text text="{JSONData>Title}"></Text>
+         <Text text="{JSONData>TitleOfCourtesy}"></Text>
+         <!-- <DatePicker value="{JSONData>BirthDate}"></DatePicker> -->
+         
+          <Text text="{JSONData>BirthDate}"></Text>
+         <Text text="{JSONData>HireDate}"></Text>
+         <Text text="{JSONData>Address}"></Text>
+         <Text text="{JSONData>City}"></Text>
+         <Text text="{JSONData>Region}"></Text>
+         <Text text="{JSONData>PostalCode}"></Text>
+         <Text text="{JSONData>Country}"></Text>
+         <Text text="{JSONData>HomePhone}"></Text>
+         <Text text="{JSONData>Extension}"></Text>
+         <!-- <Text text="{Photo}"></Text> -->
+          <!-- <Text text="{Notes}"></Text> -->
+         <Text text="{JSONData>ReportsTo}"></Text>
+         <Text text="{JSONData>PhotoPath}"></Text>
+          <Text text="{JSONData>OrderID}"></Text>
+
+         
+         <Button icon="sap-icon://delete" press="ondeletepress" type="Reject"></Button>
+         </cells>
+        </ColumnListItem>
+       </items>
+    </Table>
+
+
+        <!-- <form:SimpleForm id="simpleForm" layout="ColumnLayout" editable="true">
+        <form:content>
+         <Label id="id_Category_ID" text="Category ID"/>
+             <Input id="inp1" width="50%" value="{CategoryID}" />
+            <Label id="Category_Name" text="Category Name"/>
+            <Input id="inp2" width="10%" value=""/>
+            <Label id="employee_Id" text="employee Id"/>
+            <Input id="inp3" width="10%" value=""/>
+            <Label id="Description" text="Description"/>
+            <Input id="inp4" width="10%" value=""/>
+            <Label id="Picture" text="Picture"/>
+            <Input id="inp5" width="10%" value=""/>
+            <Label id="Customer_Type_ID" text="Customer Type ID"/>
+            <Input id="input6" width="10%" value=""/>
+            <Label id="Customer_Desc" text="Customer Desc"/>
+            <Input id="input7" width="10%" value=""/>
+            <Label id="Customer_ID" text="Customer ID"/>
+            <Input id="inp8" width="10%" value=""/>
+            <Label id="Company_Name" text="Company Name"/>
+            <Input id="inp9" width="10%" value=""/>
+            <Label id="Address" text="Address"/>
+            <Input id="inp10" width="10%" value=""/>
+            <Label id="Phone" text="Phone"/>
+            <Input id="inp11" width="10%" value=""/>
+            <Label id="Order_ID" text="Order ID"/>
+            <Input id="inp12" width="10%" value=""/>
+            <Label id="Product_ID" text="Product ID"/>
+            <Input id="inp13" width="10%" value=""/>
+            <Label id="Unit_Price" text="Unit Price"/>
+            <Input id="inp14" width="10%" value=""/>
+            <Label id="Quantity" text="Quantity"/>
+            <Input id="inp15" width="10%" value=""/>
+            <Label id="Discount" text="Discount (%)"/>
+            <Input id="inp16" width="2%" value=""/>
+        </form:content>
+           
+            
+        </form:SimpleForm> -->
+
+    </content>
+       
+    </Page>
+</mvc:View>
